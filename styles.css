@@ -1,0 +1,38 @@
+.header, .subscribe {
+    background-color: #1f2937;
+    color: azure;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.subscribe {
+
+}
+
+.header {
+    
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .container img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container img {
+    width: 8vw;
+    border-radius: 10px;
+    flex: 1;
+}
