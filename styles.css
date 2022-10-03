@@ -147,12 +147,12 @@ img {
 
 .call-to-subscribe {
     color: azure;
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
     background-color: #3882f6;
     margin-bottom: 3vh;
     border-radius: 15px;
-    padding: 1em 0;
+    padding: 1em 1em;
 }
 
 .call-to-subscribe button {
