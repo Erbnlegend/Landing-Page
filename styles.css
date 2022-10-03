@@ -1,7 +1,50 @@
-.header, .subscribe {
-    background-color: #1f2937;
-    color: azure;
+/* Base Stying */
 
+body {
+    margin: 0;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 15px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+.header, .subscribe {
+    color: azure;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav li {
+    padding: 5px 15px 15px 5px;
+}
+
+.nav li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.landing-header, .footer {
+    background-color: #1f2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    color: #f9faf8;
 }
 
 .logo {
@@ -9,30 +52,109 @@
     color: #f9faf8;
 }
 
-.subscribe {
-
+.big-text {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
-.header {
-    
+.small-text {
+    font-size: 12px;
+}
+
+.medium-text {
+    font-weight: bold;
+    font-size: 16px;;
+}
+
+.text {
+    padding: 5px 0;
+}
+
+.header, .header ul, .header ul li {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    padding: 5px 15px 15px 5px;
+}
+
+.column-container {
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Content Styling */
+
+.subscribe img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.subscribe {
+    padding: 5vh 0 10vh 0;
+}
+
+.information {
+    font-size: 36px;
+    padding: 3vh 0 5vh 0;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .content {
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    padding: 1em 0;
+    background-color: white;
     width: 50%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-.container, .container img {
-    display: flex;
-    justify-content: space-evenly;
+.content img, .content p {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
-.container img {
-    width: 8vw;
-    border-radius: 10px;
-    flex: 1;
+.quote {
+    width: 100%;
+    padding: 10vh 0 10vh 0;
+    margin-bottom: 3vh;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 25%;
+}
+
+.quote-author {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 25%;
+    float: right;
+}
+
+.call-to-subscribe {
+    color: azure;
+    width: 30%;
+    margin: 0 auto;
+    background-color: #3882f6;
+    margin-bottom: 3vh;
+    border-radius: 15px;
+    padding: 1em 0;
+}
+
+.call-to-subscribe button {
+    border: 1px solid azure;
 }
